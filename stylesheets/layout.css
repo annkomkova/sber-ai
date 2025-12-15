@@ -102,6 +102,20 @@ section {
     background-repeat: no-repeat;
   }
 }
+#promt .blur {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100rem;
+}
+#promt .blur > * {
+  padding: 0;
+}
+.logo {
+  color: inherit;
+  text-decoration: none;
+}
 .normal video {
   width: 100%;
   height: 100%;
@@ -119,6 +133,10 @@ section {
   display: flex;
   justify-content: space-between;
 }
+#events .coding {
+  justify-content: center;
+  gap: 20rem;
+}
 #events .card {
   width: 30%;
   display: flex;
@@ -126,6 +144,17 @@ section {
   align-items: center;
   gap: 70rem;
   text-decoration: none;
+}
+#promt #events .card {
+  width: 19%;
+  gap: 60rem;
+  transition: transform 0.8s ease;
+}
+#promt #events .card {
+  gap: 60rem;
+}
+#promt #events .card:hover {
+  transform: translateY(-2vw);
 }
 .card img {
   width: 100%;
@@ -150,7 +179,8 @@ section {
   display: flex;
   align-items: center;
 }
-#program .info {
+#program .info,
+#cover .info {
   width: 367rem;
   height: 95rem;
   border-radius: 100rem;

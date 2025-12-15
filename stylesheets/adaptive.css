@@ -6,7 +6,8 @@
     display: none;
   }
   section {
-    &.normal {
+    &.normal,
+    .swiper {
       height: 80vh;
     }
   }
@@ -52,16 +53,34 @@
     width: 95%;
     gap: 20px;
   }
+  #promt #events .cards {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 200rem 50rem;
+  }
+  #promt #events .card {
+    width: 30%;
+    gap: 20px;
+  }
+  #promt #events .coding .card {
+    width: 45%;
+  }
   .card img {
     border-radius: 50px;
   }
-  .card .greyButton {
+  .card .greyButton,
+  #cover .info {
     padding: 26px 40px;
     background-color: rgb(0, 0, 0);
     border-radius: 100px;
     color: white;
     font-size: 140rem;
     line-height: 1.5;
+  }
+  #cover .info {
+    width: fit-content;
   }
   .programItem {
     flex-direction: column;
@@ -123,6 +142,9 @@
   h3 {
     font-size: 220rem;
     font-weight: 300;
+  }
+  #promt .blur h3 {
+    font-size: 120rem;
   }
   .faq__item-question-plus {
     width: 120rem;
