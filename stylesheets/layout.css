@@ -67,9 +67,11 @@ a {
     font-size: 30rem;
     transition: all ease 0.8s;
     width: fit-content;
+    text-decoration: none;
   }
 }
-header .greyButton:hover {
+header .greyButton:hover,
+#events .greyButton:hover {
   background-color: black;
   color: white;
 }
