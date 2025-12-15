@@ -17,6 +17,8 @@ img {
   display: block;
 }
 h1 {
+  display: flex;
+  justify-content: center;
   font-weight: 600;
   text-align: center;
   width: 100%;
