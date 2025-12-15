@@ -1,0 +1,87 @@
+@media screen and (max-width: 500px) {
+  html {
+    font-size: calc(1vw / 3.9);
+  }
+  section {
+    overflow: hidden;
+    padding: 60rem 32rem;
+  }
+  section > *,
+  .block,
+  form,
+  .jury_item,
+  #program {
+    width: 100%;
+  }
+  header {
+    background-image: url('../images/mobileHeaderBg.png');
+    width: 100%;
+    height: 756rem;
+    padding: 20rem;
+  }
+  .header {
+    display: none;
+  }
+  header .logo {
+    width: 354rem;
+  }
+  header .info {
+    flex-direction: column-reverse;
+    gap: 40rem;
+    align-items: stretch;
+  }
+  header .place {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  header .links {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  header a {
+    text-decoration: none;
+    color: #d8d8d8;
+  }
+  section {
+    flex-direction: column;
+    gap: 30rem;
+  }
+  .button,
+  .apply {
+    width: 100%;
+    text-align: center;
+    padding: 10rem 20rem;
+  }
+  .black > div {
+    flex-direction: column;
+    gap: 60rem;
+  }
+  .stats,
+  #community {
+    flex-direction: column;
+    gap: 40rem;
+  }
+  .program_info,
+  .event {
+    flex-direction: column;
+  }
+  footer img {
+    width: 280rem;
+  }
+  .footer_info {
+    flex-direction: column;
+    gap: 20rem;
+  }
+  .footer_item {
+    gap: 8rem;
+  }
+  .tag {
+    padding: 10rem 17rem;
+    height: auto;
+  }
+  form .button {
+    font-weight: 400;
+    padding: 20rem;
+  }
+}
