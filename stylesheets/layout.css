@@ -126,6 +126,12 @@ section {
   width: 100%;
   height: 100%;
 }
+video {
+  pointer-events: none;
+}
+video::-webkit-media-controls {
+  display: none;
+}
 .logosHseSber {
   width: 200rem;
   margin: 0 auto;
