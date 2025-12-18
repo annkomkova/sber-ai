@@ -285,12 +285,6 @@ div.faq__item {
   padding-top: 40rem;
   display: none;
 }
-.hidden {
-  display: none !important;
-}
-.mobile {
-  display: none;
-}
 .faq__wrap {
   margin: 100rem auto;
   width: 900rem;
@@ -317,4 +311,8 @@ footer span {
   display: flex;
   justify-content: center;
   gap: 20rem;
+}
+.hidden,
+.mobile {
+  display: none !important;
 }
