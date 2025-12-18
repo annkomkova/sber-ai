@@ -72,6 +72,12 @@ a {
     text-decoration: none;
   }
 }
+#questions {
+  color: white;
+  width: fit-content;
+  margin: 200rem auto;
+  padding: 14rem 26rem;
+}
 header .greyButton:hover,
 #events .greyButton:hover,
 #events .card:hover .greyButton {
