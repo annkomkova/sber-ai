@@ -1,7 +1,7 @@
 @media screen and (max-width: 500px) {
-  html {
-    /* font-size: calc(1vw / 5); */
-  }
+  /* html {
+    font-size: calc(1vw / 5);
+  } */
   header {
     flex-direction: column;
     height: fit-content;
@@ -34,6 +34,13 @@
       height: 80vh;
     }
   }
+  #theme_4 section.normal,
+  #theme_4 video {
+    height: 100%;
+  }
+  #theme_4 #task {
+    padding: 80rem 0;
+  }
   .logo {
     font-weight: 600;
   }
@@ -52,6 +59,7 @@
     display: flex;
     justify-content: center;
   }
+
   .logosHseSber {
     width: 28%;
   }
@@ -69,6 +77,19 @@
   h2 {
     font-size: 200rem;
     padding: 800rem 0 600rem;
+  }
+  #theme_4 h1 {
+    flex-direction: column;
+    font-size: 200rem;
+    padding-top: 400rem;
+  }
+  #theme_4 h2 {
+    font-size: 150rem;
+    padding: 400rem 0 95rem;
+  }
+  #theme_4 .lid {
+    max-width: 90%;
+    font-size: 84rem;
   }
   h3 {
     font-size: 200rem;
